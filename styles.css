@@ -17,6 +17,7 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #1e2023;
+  background-image: url(./img/bg.jpg);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -206,7 +207,7 @@ h3 {
       height: 100vh;
       padding: 20px;
       z-index: 10;
-      background-color: #1E2023;
+      background-image: url(./img/bg.jpg);
       opacity: 0;
       visibility: hidden;
       pointer-events: none;
@@ -417,7 +418,6 @@ h3 {
   /*---------------------------*/
   
   .hero-social-list {
-    background-color: #2a2d32;
     color: #f0f0f0;
     display: flex;
     flex-direction: column;
@@ -525,9 +525,8 @@ h3 {
     .hero-social-list {
       flex-direction: row;
       justify-content: center;
-      gap: 50px;
+      gap: 100px;
       padding: 40px 0px;
-      background-color: #2a2d32;
     }
   }
   
