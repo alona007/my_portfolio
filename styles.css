@@ -347,11 +347,7 @@ h3 {
     padding-top: 16px;
   }
   
-  .hero-container {
-
-  }
-  
-  .hero-first-part {
+ .hero-first-part {
     margin-bottom: 72px;
   }
   
@@ -361,7 +357,6 @@ h3 {
     line-height: 1.25;
     letter-spacing: 0em;
     text-transform: uppercase;
-    padding-top: 112px;
     margin-bottom: 40px;
   }
   
@@ -572,7 +567,7 @@ h3 {
     .hero-image {
       position: absolute;
       top: 0;
-      right: 400px;
+      right: 390px;
       transform: translateY(-10%);
     }
   
@@ -654,7 +649,219 @@ h3 {
     text-transform: uppercase;
     }
   }
+
+  /*------------------About-me------------------*/
+  .about-me {
+    margin-top: 80px;
+    background-color: #1e2023;
+    background-image: none;
+  }
   
+  .about-me-title {
+    margin-bottom: 40px;
+  }
+
+  .about-me-span{
+    color: #4CAF50;
+  }
+
+  .about-me-img-block {
+    display: block;
+    border-radius: 16px;
+    margin-bottom: 32px;
+  }
+  .about-me-information {
+    color: var(--white);
+  }
+  .about-me-second-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-bottom: 32px;
+  }
+  .about-me-p-text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: white;
+    margin-bottom: 32px;
+    text-align: justify;
+  }
+
+  .about-me-my-picture {
+    border-radius: 20px;
+  }
+  .about-me-education {
+    color: #f0f0f0;
+  }
+  .about-me-educ-container {
+    color: #f0f0f0;
+  }
+  .about-me-third-title {
+    font-weight: 500;
+    margin-bottom: 32px;
+  }
+  
+  .about-me-info-list {
+    margin-bottom: 32px;
+  }
+  
+  .about-me-info-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-me-info-list::before {
+    content: ' ';
+    color: #14c57c; /* Bullet point color */
+    font-weight: bold;
+  }
+  
+  @media screen and (min-width: 360px) {
+    .about-me {
+      background-image: none;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .about-me {
+      background-size: 336px 252px;
+      background-image: url(../img/about-me/tabletbg-min.png);
+      background-repeat: no-repeat;
+      background-position: bottom 188px right 32px;
+    }
+  
+    .about-me-main-title {
+      display: flex;
+      font-family: 'Impact', sans-serif;
+      font-weight: 400;
+      font-size: 108px;
+      line-height: 115%;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      text-align: right;
+      color: var(--white);
+    }
+  
+    .about-me-wrap {
+      display: flex;
+      margin-bottom: 60px;
+    }
+  
+    .about-me-information {
+      width: 700px;
+      padding: 0 0 0 22px;
+    }
+  
+    .about-me-img-block {
+      margin-top: auto;
+    }
+  
+    .about-me-education {
+      display: flex;
+      width: 704px;
+    }
+  
+    .about-me-list {
+      gap: 12px;
+    }
+  
+    .about-me-educ-container {
+      box-sizing: border-box;
+      width: 336px;
+      justify-content: space-between;
+    }
+  
+    .about-me-list {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .about-me-role-container {
+      padding: 0 32px;
+    }
+  
+    .about-me-second-title{
+      font-size: 36px;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .about-me {
+      background-image: url(../img/about-me/tabletbg-min.png);
+      background-repeat: no-repeat;
+      background-position: bottom 220px right 32px;
+    }
+  
+    .about-me-main-title {
+      display: flex;
+      font-family: 'Impact', sans-serif;
+      font-weight: 400;
+      font-size: 136px;
+      line-height: 156px;
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
+      text-align: right;
+      }
+  
+    .about-me-information {
+      display: flex;
+      flex-direction: column;
+      width: 600px;
+      }
+  
+    .about-me-img-block {
+      margin-top: 0;
+      margin-right: 100px;
+    }
+  
+    .about-me-education {
+      margin-left: auto;
+      margin-right: auto; 
+      width: 804px;
+      display: flex;
+      justify-content: space-between;
+
+    }
+
+    .about-me-role-container {
+      padding: 0 82px;
+    }
+  
+    .about-me-list {
+      gap: 16px;
+    }
+  
+    .about-me-wrap {
+      margin-bottom: 80px;
+    }
+  
+    .about-me-second-title{
+      font-size: 36px;
+    }
+  }
+  
+  @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+    screen and (min-resolution: 2dppx) and (min-width: 1280px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+    .about-me {
+      background-image: url(../img/about-me/desktopbgx2-min.png);
+    }
+  }
+  
+  @media screen and (min-resolution: 192dpi) and (max-width: 1279px),
+    screen and (min-resolution: 2dppx) and (max-width: 1279px),
+    screen and (min-device-pixel-ratio: 2) and (max-width: 1279px) {
+  }
+  
+  @media screen and (min-resolution: 192dpi) and (max-width: 767px),
+    screen and (min-resolution: 2dppx) and (max-width: 767px),
+    screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  }
 
     /*---------------------------*/
 
