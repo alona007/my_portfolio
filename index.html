@@ -59,16 +59,14 @@
             </li>
           </ul>
          </div>
-      </header>
-    
+      </header>    
     <main>
         <section class="hero-section" id="hero">
-            <div class="container">
-              <div class="hero-container">
-                <div class="hero-first-part">
-                  <h1 class="hero-heading">
-                    HELLO, I AM 
-                    <span class="hero-highlight">FULLSTACK DEVELOPER</span>
+          <div class="container">
+            <div class="hero-container">
+              <div class="hero-first-part">
+                <h1 class="hero-heading">
+                  HELLO, I AM<span class="hero-highlight">FULLSTACK DEVELOPER</span>
                   </h1>
                   <picture class="hero-image">
                     <img
@@ -98,10 +96,10 @@
                 </div>
               </div>
             </div>
-                  <div class="hero-social-info">
-                  <ul class="hero-social-list">
-                    <li class="hero-social-item">
-                      <a class="hero-social-link" href="https://www.instagram.com/allyonka7/" target="_blank">Instagram</a>
+            <div class="hero-social-info">
+              <ul class="hero-social-list">
+                <li class="hero-social-item">
+                  <a class="hero-social-link" href="https://www.instagram.com/allyonka7/" target="_blank">Instagram</a>
                     </li>
                     <li class="hero-social-item">
                       <a class="hero-social-link" href="https://www.facebook.com/alyona.alyona.5661" target="_blank">Facebook</a>
@@ -111,11 +109,10 @@
                     </li>
                     <li class="hero-social-item">
                         <a class="hero-social-link" href="https://www.linkedin.com/in/alona-olyksashenko-4650562a2/" target="_blank">LinkedIn</a>
-                      </li>
-
+                    </li>
                   </ul>
                 </div>
-          </section>
+              </section>
 
           <section class="about-me container" id="about">
             <div class="about-me-container">
@@ -213,14 +210,172 @@ I have been coding for 10 months and have completed 2 successful team projects a
             </div>
           </section>
 
+          <section class="benefits-section">
+            <div class="container">
+              <div class="benefits-wrapper">
+                <h2 class="benefits-section-title">
+                  <span class="benefits-span">Benefits</span> of working with me
+                </h2>
           
+                <ul class="benefits-list">
+                  <li class="benefits-items-list-1">
+                    <div class="icon-wrapper">
+                      <svg class="benefits-icon" width="24" height="24">
+                        <use href="./img/svg/icons.svg#icon-user"></use>
+                      </svg>
+                    </div>
+                    <h3 class="benefits-hero">Expertise</h3>
+                    <p class="benefits-description">
+                      With extensive experience in development, I have a deep
+                      understanding of programming and website development.
+                    </p>
+                  </li>
+                  <li class="benefits-items-list-2">
+                    <div class="icon-wrapper">
+                      <svg class="benefits-icon" width="24" height="24">
+                        <use href="./img/svg/icons.svg#icon-message"></use>
+                      </svg>
+                    </div>
+                    <h3 class="benefits-hero">Communication</h3>
+                    <p class="benefits-description">
+                      Understanding your needs and wants is my priority and I am always
+                      available for discussions and open to corrections.
+                    </p>
+                  </li>
+                  <li class="benefits-items-list-3">
+                    <div class="icon-wrapper">
+                      <svg class="benefits-icon" width="24" height="24">
+                        <use href="./img/svg/icons.svg#icon-pen"></use>
+                      </svg>
+                    </div>
+                    <h3 class="benefits-hero">Art</h3>
+                    <p class="benefits-description">
+                      Thanks to my creative nature, I am ready to accept challenges and
+                      help you bring your ideas to life.
+                    </p>
+                  </li>
+                  <li class="benefits-items-list-4">
+                    <div class="icon-wrapper">
+                      <svg class="benefits-icon" width="24" height="24">
+                        <use href="./img/svg/icons.svg#icon-sandclock"></use>
+                      </svg>
+                    </div>
+                    <h3 class="benefits-hero">Urgent execution</h3>
+                    <p class="benefits-description-not">
+                      I understand how important time is to you. Ready to work quickly and
+                      efficiently, without reducing the quality of work.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section class="contact-section">
+            <div class="container contact-container">
+              <div class="contact-info-container">
+                <h2 class="work-together" id="contacts">Let&#x2019;s <span>work together</span></h2>
+                <p class="contact-me">Contact me to transform your ideas into exceptional solutions.</p>
+                <ul class="contact-list">
+                  <li>
+                    <div class="contact-li-container">
+                      <svg class="contact-icon" width="24" height="24">
+                        <use href="./img/svg/icons.svg#icon-phone"></use>
+                      </svg>
+                      <a class="tel" href="tel:+48575722972">+48 575 722 972</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="contact-li-container">
+                      <svg class="contact-icon" width="24" height="24">
+                        <use href="./img/svg/icons.svg#icon-mail"></use>
+                      </svg>
+                      <a class="mailto" href="mailto:alona.olyksashenko@gmail.com">alona.olyksashenko@gmail.com</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="contact-li-container">
+                      <svg class="contact-icon" width="24" height="24">
+                        <use href="./img/svg/icons.svg#icon-location"></use>
+                      </svg>
+                      Warsaw, Poland
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <form class="form" id="form" novalidate>
+                <div class="email-wrapper">
+                  <input class="form-email" type="email" name="email" id="email" placeholder="Your email*" required />
+                </div>
+                <textarea class="form-message" name="message" id="message" placeholder="Message"></textarea>
+                <button class="form-btn">Send message</button>
+              </form>
+            </div>
+            <div class="modal-overlay" id="modal-overlay">
+              <div class="modal-window">
+                <svg class="modal-close-icon" width="24" height="24">
+                  <use href="./img/svg/icons.svg#icon-close"></use>
+                </svg>
+                <p class="modal-title">Thank you for your interest in cooperation!</p>
+                <p class="modal-description">The manager will contact you shortly to discuss further details and opportunities for cooperation. Please stay in touch.</p>
+              </div>
+            </div>
+          </section>
+          <div class="modal-countainer is-hidden">
+            <div class="modal">
+              <div class="modal-content">
+                  <button type="button" class="modal-close-btn"></button>
+                    <h2 class="modal-title">Thank you for your interest in cooperation!</h2>
+                    <p class="modal-text">The manager will contact you shortly to discuss further details and opportunities for cooperation. Please stay in touch.</p>
+                </div>
+            </div>
+          </div> 
+
 
     </main>
 
 
     <script type="module" src="./mobile-open.js"></script>
     <script type="module" src="./my-projects.js"></script>
-    
-    
+    <script type="module" src="./scroll-up.js"></script>
+    <script type="module" src="./contacts/contacts.form.js"></script>
+    <script type="module" src="./contacts/contacts.modal.js"></script>
+        
   </body>
+  <footer class="footer-section">
+    <div class="container">
+      <div class="footer-wraper">
+        <a class="footer-logo" href="./index.html"
+          >Alona<span class="footer-accent"> Olyksashenko</span></a>
+        <ul class="footer-link">
+          <li class="footer-item">
+            <a href="https://www.instagram.com/allyonka7/" target="_blank"
+              >Instagram</a
+            >
+          </li>
+          <li class="footer-item">
+            <a href="https://www.facebook.com/alyona.alyona.5661" target="_blank"
+              >Facebook</a
+            >
+          </li>
+          <li class="footer-item">
+            <a
+              href="https://www.linkedin.com/in/alona-olyksashenko-4650562a2/"
+              target="_blank"
+              >Linkedin</a
+            >
+          </li>
+          <li class="footer-item">
+            <a
+              href="https://github.com/alona007"
+              target="_blank"
+              >GitHub</a
+            >
+          </li>
+        </ul>
+      </div>
+      <p class="footer-text-end">© Copyright 2024. Made by Alona Olyksashenko</p>
+    </div>
+  </footer>
+  <button id="scrollToTopBtn" class="scroll-to-top">↑</button>
 </html>
