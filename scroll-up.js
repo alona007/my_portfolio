@@ -1,16 +1,16 @@
-const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
-window.addEventListener('scroll', () => {
+window.addEventListener("scroll", () => {
   if (window.scrollY > 200) {
-    scrollToTopBtn.classList.add('show');
+    scrollToTopBtn.classList.add("show");
   } else {
-    scrollToTopBtn.classList.remove('show');
+    scrollToTopBtn.classList.remove("show");
   }
 });
 
-scrollToTopBtn.addEventListener('click', () => {
+scrollToTopBtn.addEventListener("click", () => {
   window.scrollTo({
     top: 0,
-    behavior: 'smooth',
+    behavior: "smooth",
   });
 });
