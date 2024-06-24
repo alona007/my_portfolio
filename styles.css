@@ -723,7 +723,6 @@ h3 {
 
 .contact-list .contact-icon {
   margin-right: 16px;
-
   display: inline-flex;
   fill: transparent;
   stroke: #4CAF50;
@@ -811,7 +810,6 @@ h3 {
   width: 320px;
   height: 48px;
   background: #4CAF50;
-
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.03em;
@@ -823,7 +821,7 @@ h3 {
 
 .form-btn:hover,
 .form-btn:focus {
-  background: #4CAF50;
+  background: #1e2023;
 }
 
 
@@ -1125,7 +1123,7 @@ h3 {
 
   .form-btn {
     width: 173px;
-  }
+    }
 }
 
 @media screen and (min-width: 1280px) {
