@@ -36,6 +36,11 @@ h2,
 h3,
 h4,
 h5,
+h6 {
+  font-family: "Impact", sans-serif;
+  margin: 0;
+}
+
 p {
   margin: 0;
 }
